@@ -7,7 +7,7 @@ We propose the cross-lingual knowledge grounded conversation (CKGC) task that gr
 ## Cite
 
 ```
-@inproceedings{Sun:2021:SUS,
+@inproceedings{Sun:2021:CPC,
   author =    {Sun, Weiwei and Meng, Chuan and Meng, Qi and Ren, Zhaochun and Ren, Pengjie and Chen, Zhumin and de Rijke, Maarten},
   title =     {Conversations Powered by Cross-Lingual Knowledge},
   booktitle = {Proceedings of the 44rd International ACM SIGIR Conference on Research and Development in Information Retrieval},
