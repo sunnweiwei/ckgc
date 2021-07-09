@@ -18,7 +18,7 @@ An example from *zh.json*.
             'role': 'Wizard',  // Now the speaker is Wizard.
             'text': '从营养学的角度来说，红肉一般含有更多肌红蛋白，比如牛肉啦',
             'knowledge_pool': {  // The candidate knowledge that wizard sees.
-                'meat':[  // Title of the article.
+                'red meat':[  // Title of the article.
                     'red meat is a source of lipoic acid.',  // A sentence in the article.
                     'in nutritional science, "red meat" is defined as any meat that has more of the protein myoglobin than white meat.'
                     ...
