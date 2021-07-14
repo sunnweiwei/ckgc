@@ -102,7 +102,7 @@ class Generator(nn.Module):
             encoder_outputs=encoder_outputs,
             labels=None,
             use_cache=False,
-            output_attentions=False,
+            output_attentions=True,
             output_hidden_states=True,
             return_dict=True
         )
