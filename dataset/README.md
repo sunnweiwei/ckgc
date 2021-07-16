@@ -34,5 +34,5 @@ An example from *zh.json*.
 
 
 
-
+We use the [test system](https://github.com/sunnweiwei/ckgc-system) to collect the dataset.
 
