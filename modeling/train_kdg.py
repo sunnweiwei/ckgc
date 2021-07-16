@@ -78,7 +78,7 @@ def train_generator(generator, optimizer, dataset, pad_idx=1, batch_size=32, ste
 
         loss = loss.sum() / tk_num.sum()
 
-        loss2 = F.cross_entropy(predict2, gt, ignore_index=pad_idx, reduction='none')
+        loss2 = F.cross_entropy(predict2, gt, ignore_index=pad_idx)
 
         final_loss = loss + loss2 + kd
 
