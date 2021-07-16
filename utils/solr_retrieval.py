@@ -1,3 +1,7 @@
+import sys
+
+sys.path += ['./']
+
 from utils.multiprocess import do_multiprocessing
 from utils.io import write_pkl
 
@@ -20,6 +24,8 @@ def solr_client(ids, qs, name, rows):
             doc_id = [r['kid'][0] for r in solr.search(q, rows=rows)]
             data.append(doc_id)
     return ids, data
+
+
 
 
 def main():

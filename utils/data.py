@@ -175,7 +175,7 @@ class CKGCTestData(Dataset, ABC):
         response = torch.tensor([self.lang_code] + self.response[index][:self.max_len])
 
         knowledge_pool = [torch.tensor(self.knowledge[ids]) for ids in self.pool[index]]
-        concat_context = torch.tensor(conv_his + self.knowledge[self.pool[index][0]])
+        concat_context = torch.tensor(self.knowledge[self.pool[index][0]] + conv_his)
 
         d_id = index
         k_id = self.pool[index]

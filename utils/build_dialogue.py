@@ -51,12 +51,12 @@ for lang in ['fr', 'es', 'zh']:
     write_file(knowledge, f'dataset/ckgc/{lang}/knowledge.txt')
     write_file(pools, f'dataset/ckgc/{lang}/pool.txt')
 
-input('>>>>')
+# input('>>>>')
 # for reddit-english
 data = []
-data.extend(read_file('large_raw/reddit_conversations.3turns.train.topical.txt'))
-data.extend(read_file('large_raw/reddit_conversations.3turns.dev.topical.txt'))
-data.extend(read_file('large_raw/reddit_conversations.3turns.test.topical.txt'))
+data.extend(read_file('dataset/reddit_en/reddit_conversations.3turns.train.topical.txt'))
+data.extend(read_file('dataset/reddit_en/reddit_conversations.3turns.dev.topical.txt'))
+data.extend(read_file('dataset/reddit_en/reddit_conversations.3turns.test.topical.txt'))
 
 context = []
 response = []
@@ -71,7 +71,7 @@ write_file(response, f'dataset/reddit_en/response.txt')
 
 # for tieba-chinese
 
-data = read_file('raw/tieba.dialogues')
+data = read_file('dataset/tieba/tieba.dialogues')
 context = []
 response = []
 
@@ -80,10 +80,10 @@ for line in data:
     context.append(ctx)
     response.append(res)
 
-with open('data/' + 'context.txt', 'w', encoding='utf-8') as f:
+with open('dataset/tieba/' + 'context.txt', 'w', encoding='utf-8') as f:
     for line in context:
         f.write(line + '\n')
-with open('data/' + 'response.txt', 'w', encoding='utf-8') as f:
+with open('dataset/tieba/' + 'response.txt', 'w', encoding='utf-8') as f:
     for line in response:
         f.write(line + '\n')
 

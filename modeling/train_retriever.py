@@ -1,3 +1,7 @@
+import sys
+
+sys.path += ['./']
+
 from modeling.models import Retriever, Generator, mbart_lang_to_id
 from utils.io import read_pkl, write_pkl, write_file
 from utils.data import Data, collate_fn, get_data_loader, CKGCTestData, collate_ckgc, remove_duplicates
