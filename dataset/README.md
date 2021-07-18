@@ -36,5 +36,5 @@ An example from *zh.json*.
 
 We use the [test system](https://github.com/sunnweiwei/ckgc-system) to collect the dataset.
 
-We are sharing a [Multilingual Conversation Corpus](https://drive.google.com/drive/folders/1DJtWJKO7OGTHHLx2jkZNKUvfOK7l6rpN?usp=sharing) (in a uniform format), which includes ~40M w/ 36 languages Reddit dialogue data (cleaned from 6 years of Reddit data.), ~0.8M w/ 7 languages personalized dialogue data, ~0.3M w/ 4 languages knowledge-grounded dialogue data, and 12K w/ 4 languages CKGC test data.
+We are sharing a [Multilingual Conversation Corpus](https://drive.google.com/drive/folders/1DJtWJKO7OGTHHLx2jkZNKUvfOK7l6rpN?usp=sharing) (in a uniform format), which includes ~40M w/ 36 languages Reddit dialogue data (cleaned from 6 years of Reddit data.), ~0.8M w/ 7 languages personalized dialogue data (translated), ~0.3M w/ 4 languages knowledge-grounded dialogue data (translated), and 12K w/ 4 languages CKGC test data (handwritten).
 
