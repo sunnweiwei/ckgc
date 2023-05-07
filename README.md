@@ -2,6 +2,9 @@
 
 We propose the cross-lingual knowledge grounded conversation (CKGC) task that ground open-domain dialogue by cross-lingual knowledge. We collect a test collection (see [dataset](https://github.com/sunnweiwei/ckgc/tree/main/dataset)), and propose a curriculum self-knowledge distillation scheme for CKGC.
 
+Paper linke: [Conversations Powered by Cross-Lingual Knowledge](https://irlab.science.uva.nl/wp-content/papercite-data/pdf/sun-2021-conversations.pdf)
+
+
 ## Data Format
 The annotated data CKGC is at `/dataset`. An example from *zh.json*.
 
